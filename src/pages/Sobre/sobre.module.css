@@ -1,0 +1,134 @@
+.header {
+  text-align: center;
+  color: var(--text-color);
+  background: var(--primary-color);
+}
+
+.header h1 {
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+
+.header img {
+  margin: 2rem;
+  width: 115px;
+  height: 100%;
+}
+
+.containerSobre {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px; 
+}
+
+.nomeCompleto {
+  font-size: 36px;
+  color: #e1aedb;
+  font-weight: 700;
+  height: 45px;
+}
+
+.profissao {
+  font-size: 25px;
+  color: var(--text-sobre);
+  font-weight: 600;
+  height: 40px;
+}
+
+.sobreMim{
+  font-size: 20px;
+  color: #e1aedb;
+  height: 45px;
+}
+
+.topicoPrincipal {
+  font-size: 36px;
+  color: #8C52FF;
+}
+
+.sectionLista {
+  display: flex;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  flex-direction: column;
+}
+
+.listaItem {
+  padding: 32px;  
+}
+
+.listaItem ul li {
+  margin-bottom: 32px; 
+}
+
+.listaTitulo {
+  margin-bottom: 5px; 
+  font-size: 22px;
+  color: #00BF63;
+  font-weight: 700;
+}
+
+.listaLocal {
+  font-size: 18px;
+  color: #2F80ED;
+}
+
+.listaDescricao {
+  font-size: 18px;
+  margin-top: 5px;
+  line-height: 20px; 
+  color: black;
+  font-weight: 300;
+}
+
+.formacao {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.projetos {
+  background-color: #EAEAEA;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+@media(max-width: 765px) {
+  .subtitulo {
+    flex-direction: column; 
+  }
+
+  .header h1 {
+   padding: 2rem;
+    font-size: 2rem;
+  }
+
+  .subtitulo img {
+    margin: 2rem;
+    width: 80vw;
+    height: 25vh;
+  }
+
+  .subtitulo p {
+    width: 80%;
+  }
+
+  .tituloSobre {
+    width: 80%;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    font-weight: ExtraLight 200;
+  }
+
+  .containerSobre {
+    flex-direction: column;
+  }
+}

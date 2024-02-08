@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   background: var(--text-color);
   display: flex;
@@ -31,10 +31,10 @@
 }
 
 .item .link:hover {
-  background-color: #eee4e453; 
-  padding: 20px;
-  border-radius: 20px;
-  font-size: 20px;
+  background-color: #9df0a869; 
+  padding: 18px;
+  border-radius: 18px;
+  font-size: 24px;
  
  
   
