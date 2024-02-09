@@ -5,14 +5,11 @@ import styles from './sobre.module.css'
 const Sobre = () => {
   return (
     <>
-      <div className={styles.header}>
-        
-        <div>
-            <img src={fotoPerfil} alt="Foto de Perfil" />
-        </div>
-      </div>
+    <section className={styles.principal}>
+            
 
       <div className={styles.containerSobre} >
+      <img src={fotoPerfil} alt="Foto de Perfil" />
           <h1 className={styles.nomeCompleto}>Crislaine Silva</h1>
           <h2 className={styles.profissao}>Desenvolvedora Jr</h2>
           <p className={styles.sobreMim}>
@@ -21,6 +18,7 @@ const Sobre = () => {
                 Com um forte desejo de aprender e crescer, estou constantemente buscando aprimorar minhas habilidades e conhecimentos.
           </p>
       </div>
+      </section>
 
       <section className={styles.formacao}>
                <div className={styles.containerSectionList}>

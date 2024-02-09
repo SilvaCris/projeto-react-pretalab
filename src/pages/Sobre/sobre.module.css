@@ -1,47 +1,58 @@
-.header {
-  text-align: center;
-  color: var(--text-color);
-  background: var(--primary-color);
+
+
+
+
+.principal{
+  height: 100vh;
+  display: flex;
+  background-color: #EAEAEA;
+  padding-top: 10px;
 }
 
-.header h1 {
-  padding-top: 2rem;
-  font-size: 2rem;
+.principal img {
+  border-radius: 40px; 
 }
 
-.header img {
-  margin: 2rem;
-  width: 115px;
-  height: 100%;
+.container {
+  margin-left: 20px; 
+  margin-right: 20px; 
+  margin-top: 200px;
+  max-width: 960px; 
+  padding-right: 10px; 
+  padding-left: 10px; 
+  width: 100%; 
+  right: 10px;
 }
 
-.containerSobre {
-  background-color: var(--primary-color);
+.containerSobre{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  padding: 15px; 
+  align-items: center;
+  text-align: center;
+  padding-bottom: 200px;     
+margin-top:200px ;    
+ 
 }
 
 .nomeCompleto {
   font-size: 36px;
-  color: #e1aedb;
-  font-weight: 700;
+  color: #8C52FF;
+  font-weight: 700; 
   height: 45px;
+  padding-top: 10px;
+}
+
+.sobreMim {
+  font-size: 20px;
+  line-height: 20px; 
+  text-align: justify;
 }
 
 .profissao {
-  font-size: 25px;
-  color: var(--text-sobre);
-  font-weight: 600;
-  height: 40px;
-}
-
-.sobreMim{
-  font-size: 20px;
-  color: #e1aedb;
-  height: 45px;
+  color: #00BF63;
+  height: 60px; 
+  padding-bottom: 20px;  
 }
 
 .topicoPrincipal {
@@ -49,13 +60,13 @@
   color: #8C52FF;
 }
 
+
 .sectionLista {
   display: flex;
   margin-bottom: 60px;
   margin-top: 60px;
   flex-direction: column;
 }
-
 .listaItem {
   padding: 32px;  
 }
@@ -65,7 +76,8 @@
 }
 
 .listaTitulo {
-  margin-bottom: 5px; 
+  padding-top: 10px; 
+ 
   font-size: 22px;
   color: #00BF63;
   font-weight: 700;
@@ -88,16 +100,15 @@
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  padding-top: 30px;
 }
 
 .projetos {
   background-color: #EAEAEA;
   display: flex;
   flex-direction: column;
+  padding-top: 30px;
 }
-
-
-
 
 
 

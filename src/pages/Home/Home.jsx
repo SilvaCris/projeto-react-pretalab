@@ -1,7 +1,8 @@
 import styles from './home.module.css'
 import homeImg from '../../assets/programmer.svg'
-import conteudoImg from '../../assets/conteudo.png'
-import timelineImg from '../../assets/timeline.png'
+import htmlCssImg from '../../assets/html-css.svg'
+import timelineImg from '../../assets/timeline.svg'
+import reactImg from '../../assets/react.svg'
 
 
 
@@ -32,34 +33,24 @@ const Home = () => {
                                 
                                 <div className={styles.textos}>
                                     
-                                    <p className={styles.texto}>
-                                        Modulo 1 - GITHUB <br />
-                                        Professora :<br />
-                                        Monitora:<br />
-                                        Conteudos:<br /><br />
-                                        Modulo 2 - HTML5 e CSS3 <br />
-                                        Professora :<br />
-                                        Monitora:<br />
-                                        Conteudos:<br /><br />
-                                        Modulo 3 - JavaScript <br />
-                                        Professora :<br />
-                                        Monitora:<br />
-                                        Conteudos:<br /><br />
-                                        Modulo 4 - React <br />
-                                        Professora :<br />
-                                        Monitora:<br />
-                                        Conteudos:<br /><br />
-                                        Modulo - Auto-conhecimento <br />
-                                        Professora :<br />
-                                        Monitora:<br />
-                                        Conteudos:<br /><br />
-                                        
-                                    </p>
+                                <p className={styles.texto}>
+    Modulo 1 - GITHUB <br />
+    Conteudos: Versionamento de código, colaboração em projetos, controle de branches. <br /><br />
+    Modulo 2 - HTML5 e CSS3 <br />
+    Conteudos: Estruturação de páginas web com HTML5, estilização de páginas com CSS3, responsividade. <br /><br />
+    Modulo 3 - JavaScript <br />
+    Conteudos: Fundamentos de JavaScript, manipulação do DOM, eventos, funções, estruturas de controle. <br /><br />
+    Modulo 4 - React <br />
+    Conteudos: Componentes, estado e props, ciclo de vida, roteamento, integração com APIs. <br /><br />
+    Modulo - Auto-conhecimento <br />
+    Conteudos: Inteligência emocional, gestão do tempo, auto-reflexão, definição de metas pessoais. <br /><br />
+</p>
                                 </div>
                             </div>
                             <div className={styles.card}>
-                                <img className={styles.imagemCard} src={conteudoImg} />
-                                <img className={styles.imagemCard} src={timelineImg} />
+                            <img className={styles.imagemCard} src={htmlCssImg} />
+                            <img className={styles.imagemCard} src={timelineImg} />
+                            <img className={styles.imagemCard} src={reactImg} />
                                 
                             </div>
                         </div>
@@ -69,13 +60,10 @@ const Home = () => {
 
                 <div className={styles.subtitulo}>
                     <h2 className={styles.tituloCards}>Relato de experiência</h2>
-                    <p>
-                    Agora, olhando para trás, vejo o quanto cresci e evoluí. Não apenas adquiri habilidades técnicas essenciais, mas também desenvolvi uma mentalidade de autogestão e resiliência que serão valiosas em qualquer área da minha vida.
-
-Este site é mais do que apenas um projeto final; é o reflexo tangível de todo o esforço, dedicação e aprendizado que experimentei durante o Ciclo PretaLab. Espero que ele inspire outras mulheres a se aventurarem no mundo da tecnologia e acreditarem no seu potencial para alcançarem seus sonhos, assim como eu fiz.
-
-Agradeço imensamente à equipe do PretaLab por tornar essa jornada possível e por criar um ambiente acolhedor e inclusivo onde todas nós pudemos prosperar. Estou ansiosa para ver para onde essa nova habilidade me levará e para continuar crescendo e contribuindo para a comunidade de tecnologia.
-                    </p>
+                    <p> Com essa formação não apenas adquiri habilidades técnicas essenciais, mas também desenvolvi uma mentalidade de autogestão e resiliência que serão valiosas em qualquer área da minha vida.<br />
+                    Este site é mais do que apenas um projeto final; é o reflexo tangível de todo o esforço, dedicação e aprendizado que experimentei durante o Ciclo PretaLab. Espero que ele inspire outras mulheres a se aventurarem no mundo da tecnologia e acreditarem no seu potencial para alcançarem seus sonhos, assim como eu fiz.<br />
+                    Agradeço imensamente à equipe do PretaLab por tornar essa jornada possível e por criar um ambiente acolhedor e inclusivo onde todas nós pudemos prosperar. Estou ansiosa para ver para onde essa nova habilidade me levará e para continuar crescendo e contribuindo para a comunidade de tecnologia.</p>
+                   
                 </div>
             </div>
         </>
