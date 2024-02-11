@@ -61,7 +61,7 @@ const Comentarios = () => {
           className={styles.input}
           type="text" 
           placeholder="Deixe aqui o seu comentário" 
-          onChange={(e) => setNewTask(e.target.value)}
+          onChange={(evento) => setNewTask(evento.target.value)}
           value={newTask}
         />
         <div className={styles.addContainer}>

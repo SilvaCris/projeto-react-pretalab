@@ -2,8 +2,8 @@
   text-align: center;
   color: var(--text-color);
   background: var(--primary-color);
-  width: 100% ;
-  margin-bottom: 2rem;
+  
+
 }
 
 .header h1 {
@@ -13,8 +13,9 @@
 
 .header img {
   margin: 2rem;
-  width: 40vw;
-  height: 60vh;
+  width: 30%;
+  height: 20%;
+  
 }
 
 .list {
@@ -25,6 +26,9 @@
 }
 
 .inputContainer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
   width: 100%; 
   display: flex;
   flex-direction: column;

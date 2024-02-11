@@ -1,7 +1,9 @@
 import styles from './footer.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelopeSquare} from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+
+
+import { FaGithub } from "react-icons/fa";
+import { MdEmail } from "react-icons/md"
+import { FaLinkedin } from "react-icons/fa";
 
 
 
@@ -11,15 +13,20 @@ function Footer() {
       <div className={styles.containerFooter}>
             <ul className={styles.listaFooter}>
                 <li>
-                <FontAwesomeIcon icon={faEnvelopeSquare} className={styles.estiloIcon}/><a href="mailto:crislaine.silva@live.com" target="_blank"className={styles.links}>crislaine.silva@live.com</a>
+                
+                <MdEmail className={styles.estiloIcon}/><a href="mailto:crislaine.silva@live.com" target="_blank"className={styles.links}>crislaine.silva@live.com</a>
                 </li>
                 <li>
-                 <FontAwesomeIcon icon={faLinkedin} className={styles.estiloIcon}/><a href="https://www.linkedin.com/in/crislainessilva/"  target="_blank" className={styles.links}>Crislaine Silva</a>
+                
+                <FaLinkedin className={styles.estiloIcon} /><a href="https://www.linkedin.com/in/crislainessilva/"  target="_blank" className={styles.links}>Crislaine Silva</a>
                 </li>
                 <li>
-                <FontAwesomeIcon icon={faGithubSquare} className={styles.estiloIcon}/><a href="https://github.com/SilvaCris" target="_blank" className={styles.links}>SilvaCris </a>
+               
+                <FaGithub className={styles.estiloIcon}/><a href="https://github.com/SilvaCris" target="_blank" className={styles.links}>SilvaCris </a>
                 </li>
             </ul>
+
+           <p>© Copyright | 2024| Todos os direitos autorais reservados</p>
         </div>
     </footer>
   )

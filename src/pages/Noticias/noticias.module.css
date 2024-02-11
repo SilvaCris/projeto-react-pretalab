@@ -3,11 +3,11 @@
     text-align: center;
     color: var(--text-color);
     background: var(--primary-color); 
-    padding-top: 1rem;
+ 
   }
   
   .header h1 {
-    padding-top: 2rem;
+    padding-top: 4rem;
     font-size: 2rem;
    
   }

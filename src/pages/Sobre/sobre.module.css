@@ -1,6 +1,23 @@
 
+.header {
+  text-align: center;
+  color: var(--text-color);
+  background: var(--primary-color); 
+  padding-top: 1rem;
+}
 
+.header h1 {
+  padding-top: 2rem;
+  font-size: 2rem;
+ 
+}
 
+.header img {
+  margin: 2rem;
+  width: 30%;
+  height: 20%;
+  
+}
 
 .principal{
   height: 100vh;
@@ -11,6 +28,7 @@
 
 .principal img {
   border-radius: 40px; 
+ 
 }
 
 .container {

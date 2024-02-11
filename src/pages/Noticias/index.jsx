@@ -31,7 +31,7 @@ return (
         <div className={styles.header}>
 
 <h1 >
-    Fique por dentro das últimas noticias do mundo tech
+    Fique por dentro das últimas noticias sobre tecnologia
 </h1>
 <img src={newsImg} />
 </div>

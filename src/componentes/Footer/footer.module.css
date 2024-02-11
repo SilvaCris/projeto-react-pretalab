@@ -1,33 +1,44 @@
 .footer {
   background-color: var(--primary-color);
+  padding: 20px 0;
   height: 200px;
-  display: flex;
-  align-items: center;
+  text-align: center;
 }
 
-.estiloIcon {
-  font-size: 32px;
-  margin-right: 10px;
+.containerFooter {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.listaFooter {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.listaFooter li {
+  padding-top: 20px ;
+  margin-right: 40px;
+  color: #FFFF;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.footer p {
+  margin-top: 10px;
+  padding-top: 20px;
+ font-weight: 700;
+ font-size: 18px;
+ color: #FFFF;
 }
 
 .links {
   text-decoration:none;
   color: white;
 }
-.containerFooter {
-  margin-right: auto; 
-  margin-left: auto; 
-  max-width: 960px; 
-  padding-right: 10px; 
-  padding-left: 10px; 
-  width: 100%; 
-}
 
-.listaFooter li {
-  color: #FFFF;
-  font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 16px;
-  display: flex;
-  align-items: center;
+.estiloIcon {
+  font-size: 32px;
+  margin-right: 10px;
 }
