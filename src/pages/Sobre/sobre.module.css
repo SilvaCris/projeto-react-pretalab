@@ -47,6 +47,9 @@ margin-top:200px ;
   font-size: 20px;
   line-height: 20px; 
   text-align: justify;
+  padding-left: 60px;
+  padding-right: 60px;
+
 }
 
 .profissao {
@@ -101,6 +104,7 @@ margin-top:200px ;
   display: flex;
   flex-direction: column;
   padding-top: 30px;
+  padding-left: 32px;  
 }
 
 .projetos {
@@ -108,6 +112,7 @@ margin-top:200px ;
   display: flex;
   flex-direction: column;
   padding-top: 30px;
+  padding-left: 32px;  
 }
 
 

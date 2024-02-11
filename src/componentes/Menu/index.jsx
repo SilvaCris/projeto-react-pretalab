@@ -26,6 +26,9 @@ const Menu = (props) => {
         <li className={open ? styles.itemOpen : styles.item}>
           <Link className={open ? styles.linkOpen : styles.link} to="/contato">Contato</Link>
         </li>
+        <li className={open ? styles.itemOpen : styles.item}>
+          <Link className={open ? styles.linkOpen : styles.link} to="/noticias">Notícias</Link>
+        </li>
       </ul>
     </nav>
   )

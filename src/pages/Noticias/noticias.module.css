@@ -1,0 +1,50 @@
+
+  .header {
+    text-align: center;
+    color: var(--text-color);
+    background: var(--primary-color); 
+    padding-top: 1rem;
+  }
+  
+  .header h1 {
+    padding-top: 2rem;
+    font-size: 2rem;
+   
+  }
+  
+  .header img {
+    margin: 2rem;
+    width: 30%;
+    height: 20%;
+    
+  }
+  
+  
+  .newsItem {
+    margin-bottom: 20px;
+    padding: 20px;
+  
+    list-style-type:circle;
+    border-radius: 8px;
+  }
+  
+  
+  .newsTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .newsDescription {
+    font-size: 16px;
+    color: #666;
+  }
+  
+
+  .newsImage {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+  }

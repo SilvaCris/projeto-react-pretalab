@@ -89,6 +89,8 @@
   
   .texto {
     width: 12rem;
+    align-items: justify;
+    
   }
   
   @media(max-width: 765px) {

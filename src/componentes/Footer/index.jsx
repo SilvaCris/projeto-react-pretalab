@@ -9,7 +9,7 @@ function Footer() {
   return(
     <footer className={styles.footer}>
       <div className={styles.containerFooter}>
-            <ul class={styles.listaFooter}>
+            <ul className={styles.listaFooter}>
                 <li>
                 <FontAwesomeIcon icon={faEnvelopeSquare} className={styles.estiloIcon}/><a href="mailto:crislaine.silva@live.com" target="_blank"className={styles.links}>crislaine.silva@live.com</a>
                 </li>
