@@ -8,7 +8,7 @@ import styles from './noticias.module.css'
 const Noticias = ()=> {
 
 const [noticias, setNoticias] = useState([])
-const pageSize = 8
+const pageSize = 10
 
 useEffect (() => {
     const fetchNews = async () => {
