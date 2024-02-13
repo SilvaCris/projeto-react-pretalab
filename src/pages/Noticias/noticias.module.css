@@ -18,6 +18,11 @@
     height: 20%;
     
   }
+
+  .links {
+    text-decoration:none;
+    color: white;
+  }
   
   
   .newsItem {

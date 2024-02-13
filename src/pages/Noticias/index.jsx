@@ -3,6 +3,7 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 import newsImg from '../../assets/news.svg'
 import styles from './noticias.module.css'
+import { GiClick } from "react-icons/gi";
 
 
 const Noticias = ()=> {
@@ -31,7 +32,8 @@ return (
         <div className={styles.header}>
 
 <h1 >
-    Fique por dentro das últimas noticias sobre tecnologia
+<a href="https://news.google.com/topics/CAAqLAgKIiZDQkFTRmdvSkwyMHZNR1ptZHpWbUVnVndkQzFDVWhvQ1FsSW9BQVAB?hl=pt-BR&gl=BR&ceid=BR%3Apt-419" target="_blank" className={styles.links}>Fique por dentro das últimas noticias sobre tecnologia <GiClick size={40}/></a>  
+    
 </h1>
 <img src={newsImg} />
 </div>
