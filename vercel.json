@@ -1,10 +1,4 @@
 {
-    "routes": [
-      {
-        "src": "/api/(.*)",
-        "dest": "https://newsapi.org/v2/top-headlines?country=br&pageSize=:pageSize&apiKey=:apiKey&category=technology",
-        "methods": ["GET"]
-      }
-    ]
-  }
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}
   
